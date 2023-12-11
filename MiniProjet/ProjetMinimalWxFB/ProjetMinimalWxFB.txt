@@ -1,0 +1,1 @@
+./Release/MyApp.cpp.o ./Release/FramePrincipal.cpp.o ./Release/EvtFramePrincipal.cpp.o
