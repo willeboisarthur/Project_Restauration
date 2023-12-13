@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_U9AlkJQ9Ee6H1L5IOYJUgg" name="diagramme_cas_utilisation_signaler_un_passage">
+  <eAnnotations xmi:id="_U9AlkZQ9Ee6H1L5IOYJUgg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_U9AlkpQ9Ee6H1L5IOYJUgg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_U9Alk5Q9Ee6H1L5IOYJUgg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_U9AllJQ9Ee6H1L5IOYJUgg" name="Activity">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_U9AllZQ9Ee6H1L5IOYJUgg" name="locals"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_U9AllpQ9Ee6H1L5IOYJUgg" name="Initial Node" outgoing="_U9Alp5Q9Ee6H1L5IOYJUgg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_U9All5Q9Ee6H1L5IOYJUgg" name="Activity Final Node" incoming="_U9AlsZQ9Ee6H1L5IOYJUgg _U9AlwJQ9Ee6H1L5IOYJUgg _U9AlyJQ9Ee6H1L5IOYJUgg _U9AlypQ9Ee6H1L5IOYJUgg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9AlmJQ9Ee6H1L5IOYJUgg" name="Valider le passage" outgoing="_U9AlqZQ9Ee6H1L5IOYJUgg" incoming="_U9Alp5Q9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_U9AlmZQ9Ee6H1L5IOYJUgg" name="Decision-Merge" outgoing="_U9Alq5Q9Ee6H1L5IOYJUgg _U9AlrpQ9Ee6H1L5IOYJUgg" incoming="_U9AlqZQ9Ee6H1L5IOYJUgg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_U9AlmpQ9Ee6H1L5IOYJUgg" name="Decision-Merge1" outgoing="_U9AlsZQ9Ee6H1L5IOYJUgg _U9AltJQ9Ee6H1L5IOYJUgg" incoming="_U9AlvJQ9Ee6H1L5IOYJUgg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9Alm5Q9Ee6H1L5IOYJUgg" name="Invalidation passage" outgoing="_U9AltpQ9Ee6H1L5IOYJUgg" incoming="_U9Alq5Q9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9AlnJQ9Ee6H1L5IOYJUgg" name="Ajouter un repas au nombre total de repas servis" outgoing="_U9AluJQ9Ee6H1L5IOYJUgg" incoming="_U9AlwpQ9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9AlnZQ9Ee6H1L5IOYJUgg" name="Ajouter un repas au nombre total de repas servis pour les élèves" outgoing="_U9AlupQ9Ee6H1L5IOYJUgg" incoming="_U9AluJQ9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9AlnpQ9Ee6H1L5IOYJUgg" name="Enregistrer dans la BdD" outgoing="_U9AlvJQ9Ee6H1L5IOYJUgg" incoming="_U9AlvpQ9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9Aln5Q9Ee6H1L5IOYJUgg" name="Incrémenter le compte repas du porteur de code-barres" outgoing="_U9AlvpQ9Ee6H1L5IOYJUgg" incoming="_U9AlupQ9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9AloJQ9Ee6H1L5IOYJUgg" name="Enregistrement" outgoing="_U9AlwJQ9Ee6H1L5IOYJUgg" incoming="_U9AltJQ9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9AloZQ9Ee6H1L5IOYJUgg" name="Validation passage" outgoing="_U9AlwpQ9Ee6H1L5IOYJUgg" incoming="_U9AlrpQ9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_U9AlopQ9Ee6H1L5IOYJUgg" name="Decision-Merge2" outgoing="_U9AlxJQ9Ee6H1L5IOYJUgg _U9AlxpQ9Ee6H1L5IOYJUgg" incoming="_U9AltpQ9Ee6H1L5IOYJUgg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9Alo5Q9Ee6H1L5IOYJUgg" name="Non autorisé à manger à ce service" incoming="_U9AlxJQ9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9AlpJQ9Ee6H1L5IOYJUgg" name="Passage multiple" incoming="_U9AlxpQ9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9AlpZQ9Ee6H1L5IOYJUgg" name="Sauver passage non autorisé" outgoing="_U9AlyJQ9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_U9AlppQ9Ee6H1L5IOYJUgg" name="Sauver passage multiple" outgoing="_U9AlypQ9Ee6H1L5IOYJUgg">
+      <body></body>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9Alp5Q9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AllpQ9Ee6H1L5IOYJUgg" target="_U9AlmJQ9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9AlqJQ9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlqZQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlmJQ9Ee6H1L5IOYJUgg" target="_U9AlmZQ9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9AlqpQ9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9Alq5Q9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlmZQ9Ee6H1L5IOYJUgg" target="_U9Alm5Q9Ee6H1L5IOYJUgg">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_U9AlrJQ9Ee6H1L5IOYJUgg">
+        <body>!OK</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9AlrZQ9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlrpQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlmZQ9Ee6H1L5IOYJUgg" target="_U9AloZQ9Ee6H1L5IOYJUgg">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_U9Alr5Q9Ee6H1L5IOYJUgg">
+        <body>OK</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9AlsJQ9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlsZQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlmpQ9Ee6H1L5IOYJUgg" target="_U9All5Q9Ee6H1L5IOYJUgg">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_U9AlspQ9Ee6H1L5IOYJUgg">
+        <body>erreur BdD</body>
+      </guard>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9Als5Q9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AltJQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlmpQ9Ee6H1L5IOYJUgg" target="_U9AloJQ9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9AltZQ9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AltpQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9Alm5Q9Ee6H1L5IOYJUgg" target="_U9AlopQ9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9Alt5Q9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AluJQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlnJQ9Ee6H1L5IOYJUgg" target="_U9AlnZQ9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9AluZQ9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlupQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlnZQ9Ee6H1L5IOYJUgg" target="_U9Aln5Q9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9Alu5Q9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlvJQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlnpQ9Ee6H1L5IOYJUgg" target="_U9AlmpQ9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9AlvZQ9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlvpQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9Aln5Q9Ee6H1L5IOYJUgg" target="_U9AlnpQ9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9Alv5Q9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlwJQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AloJQ9Ee6H1L5IOYJUgg" target="_U9All5Q9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9AlwZQ9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlwpQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AloZQ9Ee6H1L5IOYJUgg" target="_U9AlnJQ9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9Alw5Q9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlxJQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlopQ9Ee6H1L5IOYJUgg" target="_U9Alo5Q9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9AlxZQ9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlxpQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlopQ9Ee6H1L5IOYJUgg" target="_U9AlpJQ9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9Alx5Q9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlyJQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlpZQ9Ee6H1L5IOYJUgg" target="_U9All5Q9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9AlyZQ9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U9AlypQ9Ee6H1L5IOYJUgg" name="ControlFlow" source="_U9AlppQ9Ee6H1L5IOYJUgg" target="_U9All5Q9Ee6H1L5IOYJUgg">
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_U9Aly5Q9Ee6H1L5IOYJUgg" value="1"/>
+    </edge>
+  </packagedElement>
+</uml:Model>
