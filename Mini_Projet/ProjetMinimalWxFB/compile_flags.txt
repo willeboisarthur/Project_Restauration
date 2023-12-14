@@ -1,0 +1,7 @@
+-I/home/eric/Documents/SNIR/2019-2020/Initiation_wxWidgets/Initiation_wxw/ProjetMinimalWxFB
+-I/home/eric/Documents/SNIR/2019-2020/Initiation_wxWidgets/Initiation_wxw/ProjetMinimalWxFB/IHM
+-I/usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0
+-I/usr/include/wx-3.0
+-D__WXGTK__
+-D_FILE_OFFSET_BITS=64
+-DWXUSINGDLL
